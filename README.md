@@ -87,7 +87,6 @@ youth-unemployment-europe-analysis/
 ├── requirements.txt
 └── README.md
 ```
-Fix README merge conflict
 ## Multiple Regression Results
 
 A multiple regression model was estimated using:
