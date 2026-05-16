@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Youth Unemployment and Inflation Analysis in Europe
 
 ## Project Overview
@@ -11,7 +11,6 @@ The project uses Python for:
 - visualization,
 - and statistical analysis.
 
----
 
 ## Objectives
 
@@ -19,7 +18,6 @@ The project uses Python for:
 - Visualize macroeconomic patterns across countries
 - Apply statistical methods to real-world economic data
 
----
 
 ## Technologies Used
 
@@ -27,8 +25,6 @@ The project uses Python for:
 - Pandas
 - Matplotlib
 - Scikit-learn
-
----
 
 ## Dataset Sources
 
@@ -38,8 +34,6 @@ Data obtained from:
 Indicators used:
 - Youth unemployment rate (ages 15–24)
 - Inflation, consumer prices (annual %)
-
----
 
 ## Methods
 
@@ -51,7 +45,6 @@ Indicators used:
 6. Applied linear regression
 7. Created visualization with regression line
 
----
 
 ## Results
 
@@ -61,13 +54,11 @@ The correlation between inflation and youth unemployment was approximately:
 
 This suggests there was little to no linear relationship between inflation and youth unemployment in the selected 2024 dataset.
 
----
 
 ## Visualization
 
 The generated graph is saved in the `images/` folder.
 
----
 
 ## How to Run
 
@@ -83,7 +74,6 @@ Run the project:
 python analysis.py
 ```
 
----
 
 ## Project Structure
 
@@ -97,3 +87,4 @@ youth-unemployment-europe-analysis/
 ├── requirements.txt
 └── README.md
 ```
+Fix README merge conflict
