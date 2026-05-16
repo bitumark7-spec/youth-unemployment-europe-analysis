@@ -88,3 +88,16 @@ youth-unemployment-europe-analysis/
 └── README.md
 ```
 Fix README merge conflict
+## Multiple Regression Results
+
+A multiple regression model was estimated using:
+- inflation rates,
+- and GDP growth rates
+
+to predict youth unemployment.
+
+Results suggested:
+- inflation had little relationship with unemployment,
+- while higher GDP growth was associated with lower youth unemployment.
+
+The GDP growth coefficient was approximately -0.82, indicating a stronger macroeconomic relationship.
