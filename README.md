@@ -100,3 +100,8 @@ Results suggested:
 - while higher GDP growth was associated with lower youth unemployment.
 
 The GDP growth coefficient was approximately -0.82, indicating a stronger macroeconomic relationship.
+## Regression Diagnostics
+
+Residual analysis was performed to evaluate model performance.
+
+The residual plot showed whether prediction errors were randomly distributed, helping assess the suitability of the linear regression model.

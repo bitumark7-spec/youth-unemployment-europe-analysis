@@ -34,8 +34,43 @@ y = df['Unemployment']
 model = LinearRegression()
 model.fit(X, y)
 
+
+# predictions
+y_pred = model.predict(X)
+
+# residuals 
+residuals = y - y_pred
+
+
 # Print coefficients
 print("Intercept:", model.intercept_)
 print("Coefficients:")
 print("Inflation:", model.coef_[0])
 print("GDP Growth:", model.coef_[1])
+
+# predictions 
+y_pred = model.predict(X)
+
+# residuals
+residuals = y - y_pred
+
+
+# residual plot 
+plt.scatter(y_pred, residuals)
+
+
+# horizontal reference line
+plt.axhline(y=0)
+
+
+# labels
+plt.xlabel('Predicted Unemployment')
+plt.ylabel('Residuals')
+plt.title('Residual Plot')
+
+
+# save figure
+plt.savefig('images/residual_plot.png')
+
+# show plot
+plt.show()
